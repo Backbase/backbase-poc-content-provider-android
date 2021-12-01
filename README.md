@@ -11,6 +11,7 @@ Please check [Drupal Official Documentation] in order in install it on your loca
 Make sure that you change the `API_URL` in the [gradle.properties](gradle.properties) to connect to Drupal.
 <br>
 `PS:`if you're using <b>emulator</b> and <b>local machine installation</b> do not change `API_URL`.</br>
+
 ## Creating Custom Content Type (Post Model)
 Once Drupal installation is ready we need to create out custom content type. </br>
 Please check [here](documentation/CustomContentType.md) how to create Custom Content Type in our case it is Post Model
@@ -33,4 +34,7 @@ Once all the above are done you can launch the App from Android Studio
     <img src="./documentation/images/post_detail.png" alt="login" width="200"/>
 </p>
 <br/>
+
+[Drupal Official Documentation]:https://www.drupal.org/docs/installing-drupal
+
 
