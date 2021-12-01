@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CMSClientTestApp</string>
+    <string name="title_post">Posts</string>
+    <string name="title_Details">Details</string>
+    <string name="connection_error">Unable to communicate with the server</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="retry">Retry</string>
+</resources>
