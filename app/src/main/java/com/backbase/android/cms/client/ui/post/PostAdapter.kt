@@ -10,12 +10,14 @@ import com.backbase.android.cms.client.utils.fromHtml
 import com.backbase.android.cms.client.utils.loadFromUrl
 import com.google.android.material.imageview.ShapeableImageView
 import com.google.android.material.textview.MaterialTextView
-
+/**
+ * This Adapter is used to help rendering the data in the recycle view
+ */
 class PostAdapter(private val clickListener: OnComponentClickListener) :
     RecyclerView.Adapter<PostAdapter.ComponentViewHolder>() {
     val dataSet = mutableListOf<Post>()
 
-    class ComponentViewHolder(private val view: View, clickListener: OnComponentClickListener) :
+    class ComponentViewHolder(private val view: View) :
         RecyclerView.ViewHolder(view) {
         private val titleView: MaterialTextView = view.findViewById(R.id.title)
         private val desc: MaterialTextView = view.findViewById(R.id.content)
@@ -35,7 +37,7 @@ class PostAdapter(private val clickListener: OnComponentClickListener) :
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): ComponentViewHolder {
         return ComponentViewHolder(
             LayoutInflater.from(viewGroup.context)
-                .inflate(R.layout.post_list_item, viewGroup, false), clickListener
+                .inflate(R.layout.post_list_item, viewGroup, false)
         )
     }
     override fun onBindViewHolder(holder: ComponentViewHolder, position: Int) {

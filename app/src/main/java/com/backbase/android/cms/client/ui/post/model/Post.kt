@@ -2,7 +2,9 @@ package com.backbase.android.cms.client.ui.post.model
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
-
+/**
+ * This is a custom UI class it is used to populate the data from CMS response into one class
+ */
 @Parcelize
 data class Post(
     val title: String,

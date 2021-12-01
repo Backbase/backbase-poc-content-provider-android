@@ -10,6 +10,9 @@ import com.backbase.android.cms.client.data.repo.PostService
 import com.backbase.android.cms.client.ui.post.model.Post
 import kotlinx.coroutines.launch
 
+/**
+ * This a SharedViewModel that acts as mediator between the ui and repository
+ */
 class SharedPostViewModel constructor(private val service: PostService) : ViewModel() {
 
 

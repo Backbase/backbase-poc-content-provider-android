@@ -9,7 +9,9 @@ import androidx.navigation.ui.setupWithNavController
 import com.backbase.android.cms.client.R
 import com.backbase.android.cms.client.databinding.ActivityMainBinding
 import com.google.android.material.appbar.MaterialToolbar
-
+/**
+ * Single Activity that hold all the Fragments
+ */
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {

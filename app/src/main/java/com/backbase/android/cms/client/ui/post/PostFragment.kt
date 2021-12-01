@@ -15,7 +15,9 @@ import com.backbase.android.cms.client.ui.SharedPostViewModel
 import com.backbase.android.cms.client.ui.post.model.Post
 import com.google.android.material.snackbar.Snackbar
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
-
+/**
+ * Initial Fragment that list of Data into a RecycleView
+ */
 class PostFragment : Fragment() {
 
     private val viewModel by sharedViewModel<SharedPostViewModel>()

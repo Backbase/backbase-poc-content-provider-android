@@ -11,6 +11,9 @@ import com.backbase.android.cms.client.ui.post.model.Post
 import com.backbase.android.cms.client.utils.fromHtml
 import com.backbase.android.cms.client.utils.loadFromUrl
 
+/**
+ * This Fragment is used to display detailed view of the data
+ */
 class PostFragmentDetails : Fragment() {
 
     private val args: PostFragmentDetailsArgs by navArgs()
