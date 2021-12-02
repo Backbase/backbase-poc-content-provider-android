@@ -7,7 +7,7 @@ import com.backbase.android.cms.client.R
 import com.backbase.android.cms.client.data.dto.Data
 import com.backbase.android.cms.client.data.dto.Included
 import com.backbase.android.cms.client.data.repo.PostService
-import com.backbase.android.cms.client.ui.post.model.Post
+import com.backbase.android.cms.client.domain.model.Post
 import kotlinx.coroutines.launch
 
 /**

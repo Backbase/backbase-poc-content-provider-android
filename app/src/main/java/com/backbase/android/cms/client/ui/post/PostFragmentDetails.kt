@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
 import com.backbase.android.cms.client.databinding.FragmentPostDetailsBinding
-import com.backbase.android.cms.client.ui.post.model.Post
+import com.backbase.android.cms.client.domain.model.Post
 import com.backbase.android.cms.client.utils.fromHtml
 import com.backbase.android.cms.client.utils.loadFromUrl
 

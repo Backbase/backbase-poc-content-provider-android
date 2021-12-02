@@ -1,4 +1,4 @@
-package com.backbase.android.cms.client.ui.post.model
+package com.backbase.android.cms.client.domain.model
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

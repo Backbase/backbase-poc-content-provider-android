@@ -5,7 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.backbase.android.cms.client.R
-import com.backbase.android.cms.client.ui.post.model.Post
+import com.backbase.android.cms.client.domain.model.Post
 import com.backbase.android.cms.client.utils.fromHtml
 import com.backbase.android.cms.client.utils.loadFromUrl
 import com.google.android.material.imageview.ShapeableImageView

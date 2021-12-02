@@ -12,7 +12,7 @@ import com.backbase.android.cms.client.R
 import com.backbase.android.cms.client.databinding.FragmentPostBinding
 import com.backbase.android.cms.client.ui.Result
 import com.backbase.android.cms.client.ui.SharedPostViewModel
-import com.backbase.android.cms.client.ui.post.model.Post
+import com.backbase.android.cms.client.domain.model.Post
 import com.google.android.material.snackbar.Snackbar
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 /**
